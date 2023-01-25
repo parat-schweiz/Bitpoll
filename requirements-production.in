@@ -1,4 +1,5 @@
-sentry-sdk
 django-auth-ldap
-uwsgi
+mozilla-django-oidc
 psycopg2-binary
+sentry-sdk
+uwsgi

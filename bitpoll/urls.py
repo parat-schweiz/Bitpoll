@@ -34,7 +34,7 @@ urlpatterns = [
 
     path(r'i18n/', include(django.conf.urls.i18n)),
     path(r'admin/', admin.site.urls),
-
+    path('oidc/', include('mozilla_django_oidc.urls')),
 ]
 
 if settings.CALENDAR_ENABLED:

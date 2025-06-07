@@ -35,6 +35,7 @@ urlpatterns = [
     url(r'^i18n/', include(django.conf.urls.i18n)),
     url(r'^admin/', admin.site.urls),
 
+    url('oidc/', include('mozilla_django_oidc.urls')),
 ]
 
 if settings.GROUP_MANAGEMENT:
